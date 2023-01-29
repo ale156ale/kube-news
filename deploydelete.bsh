@@ -1,0 +1,3 @@
+kubectl delete -f src/monitoramento/deploy-prometheus-grafana.yaml
+kubectl delete -f src/k8s/deployment.yaml
+kubectl get all
